@@ -1,0 +1,21 @@
+{
+    "name": "haxeui-demo",
+    "version": "1.0.0",
+    "description": "a small demo using haxeui-openfl",
+    },
+    "keywords": [
+        "haxe",
+        "haxeui",
+        "openfl",
+        "lime",
+        "demo"
+    ],
+    "author": {
+        "name": "yurii",
+        "email": "yuriim@gmail.com"
+    },
+    "contributors": [],
+    "devDependencies": {
+        "lix": "^15.8.5"
+    },
+}

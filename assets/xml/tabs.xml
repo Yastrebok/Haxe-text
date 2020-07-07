@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<vbox width="100%">
+    <label text="Top Text" />
+    <box width="100%" height="1" style="background-color: #000000;" />
+    <grid  width="100%" height="100%" style="">
+        <!--  top tabview -->
+        <tabview id="results" width="836" height="862">
+			
+           	<box text="Tab 1" style="border: 1px solid #ababab;padding:5px;" icon="haxeui-core/styles/default/haxeui_tiny.png">
+					<grid columns="4" >
+								<button text="Button 1" width="200" height="200" icon="haxeui-core/styles/default/haxeui_small.png"  onclick="Screen.instance.messageBox('Button 1')"/>
+								<button text="Button 2" width="200" height="200" icon="haxeui-core/styles/default/haxeui_small.png"  onclick="Screen.instance.messageBox('Button 2')"/>
+								<button text="Button 3" width="200" height="200" icon="haxeui-core/styles/default/haxeui_small.png"  onclick="Screen.instance.messageBox('Button 3')"/>
+								<button text="Button 4" width="200" height="200" icon="haxeui-core/styles/default/haxeui_small.png"  onclick="Screen.instance.messageBox('Button 4')"/>
+						
+								<button text="Button 5" width="200" height="200" icon="haxeui-core/styles/default/haxeui_small.png"  onclick="Screen.instance.messageBox('Button 5')"/>
+								<button text="Button 6" width="200" height="200" icon="haxeui-core/styles/default/haxeui_small.png"  onclick="Screen.instance.messageBox('Button 6')"/>
+								<button text="Button 7" width="200" height="200" icon="haxeui-core/styles/default/haxeui_small.png"  onclick="Screen.instance.messageBox('Button 7')"/>
+								<button text="Button 8" width="200" height="200" icon="haxeui-core/styles/default/haxeui_small.png"  onclick="Screen.instance.messageBox('Button 8')"/>
+								
+								<button text="Button 9"  width="200" height="200" icon="haxeui-core/styles/default/haxeui_small.png"  onclick="Screen.instance.messageBox('Button 9')"/>
+								<button text="Button 10" width="200" height="200" icon="haxeui-core/styles/default/haxeui_small.png"  onclick="Screen.instance.messageBox('Button 10')"/>
+								<button text="Button 11" width="200" height="200" icon="haxeui-core/styles/default/haxeui_small.png"  onclick="Screen.instance.messageBox('Button 11')"/>
+								<button text="Button 12" width="200" height="200" icon="haxeui-core/styles/default/haxeui_small.png"  onclick="Screen.instance.messageBox('Button 12')"/>
+								
+								<button text="Button 13" width="200" height="200" icon="haxeui-core/styles/default/haxeui_small.png"  onclick="Screen.instance.messageBox('Button 13')"/>
+								<button text="Button 14" width="200" height="200" icon="haxeui-core/styles/default/haxeui_small.png"  onclick="Screen.instance.messageBox('Button 14')"/>
+								<button text="Button 15" width="200" height="200" icon="haxeui-core/styles/default/haxeui_small.png"  onclick="Screen.instance.messageBox('Button 15')"/>
+								<button text="Button 16" width="200" height="200" icon="haxeui-core/styles/default/haxeui_small.png"  onclick="Screen.instance.messageBox('Button 16')"/>
+					</grid>
+			</box>
+			
+			<box text="Tab 2" icon="haxeui-core/styles/default/haxeui_tiny.png">
+					<grid columns="4" >
+								<button text="Button 21" width="200" height="200" icon="haxeui-core/styles/default/haxeui_small.png"  onclick=""/>
+								<button text="Button 22" width="200" height="200" icon="haxeui-core/styles/default/haxeui_small.png"  onclick=""/>
+								<button text="Button 23" width="200" height="200" icon="haxeui-core/styles/default/haxeui_small.png"  onclick=""/>
+								<button text="Button 24" width="200" height="200" icon="haxeui-core/styles/default/haxeui_small.png"  onclick=""/>
+					</grid>
+            </box>
+				
+            <box text="Tab 3" icon="haxeui-core/styles/default/haxeui_tiny.png">
+					<textarea width="800" height="800" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. \nNam laoreet felis sit amet
+								vulputate gravida. Duis ac neque aliquam, aliquet justo eu, malesuada sapien. \nVestibulum aliquam lorem eu diam vestibulum vulputate. 
+								Fusce erat arcu, rutrum at mattis quis, vestibulum hendrerit erat. \nSed nec velit lacinia, posuere sem ut, interdum diam.\n Praesent faucibus dignissim 
+								libero non pulvinar. In finibus, tellus et consectetur scelerisque, neque lacus lobortis lorem, ac consectetur ipsum nulla placerat turpis.\n Proin blandit
+								odio ut fermentum malesuada, enim eros ultricies quam, ut cursus eros dolor eu eros. \nNam interdum consequat mi, ut sodales turpis. Morbi euismod, libero
+								sit amet ultrices venenatis, eros libero blandit arcu, eu pharetra neque leo eget ligula.\n Pellentesque quis mattis ante. Ut ac odio ullamcorper, bibendum 
+								nisi eu, placerat ante\n. Donec in quam non felis pulvinar vehicula non non dui. \nAliquam erat volutpat. Phasellus a vehicula quam, at posuere nisl. Sed nulla 
+								nulla, placerat sed arcu non, tincidunt pretium erat." />
+
+            </box>
+        </tabview>
+    </grid>  
+</vbox>

@@ -1,0 +1,18 @@
+		<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+    <meta title="Main" package="" version="1.0.0" company="company" />
+    <app main="Main" path="out" file="Main" />
+    <window width="610" height="640" />
+
+    <source path="src" />
+
+    <haxelib name="lime" />
+    <haxelib name="openfl" />
+    <haxelib name="haxeui-core" />
+    <haxelib name="haxeui-openfl" />
+
+    <assets path="assets/xml" />
+	<assets path="assets/img/fav_16.png" />
+	<assets path="assets/text1.txt" />
+</project>
